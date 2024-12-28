@@ -19,7 +19,7 @@ export function SiteHeader() {
             href="/"
             className="flex items-center gap-2 px-2 text-xl font-bold tracking-tighter"
           >
-            Acme
+            Lannie Shop
           </Link>
         </div>
         <nav className="text-muted-foreground hover:[&_a]:text-foreground hidden items-center gap-6 text-sm font-medium md:flex [&_a]:transition-colors">
