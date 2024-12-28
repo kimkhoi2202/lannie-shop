@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss"
 import { withTV } from 'tailwind-variants/transformer'
+import animate from "tailwindcss-animate"
 
 const config: Config = {
   darkMode: ["class"],
@@ -74,9 +75,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [
-    await import("tailwindcss-animate").then((module) => module.default),
-  ],
+  plugins: [animate],
 }
 
 export default withTV(config)
